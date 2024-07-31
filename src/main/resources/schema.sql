@@ -1,0 +1,6 @@
+CREATE TABLE device (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    brand VARCHAR(255) NOT NULL,
+    creation_time TIMESTAMP NOT NULL
+);
